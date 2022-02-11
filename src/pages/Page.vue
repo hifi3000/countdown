@@ -1,6 +1,6 @@
 <template>
   <div v-if="!isFetching">
-    <h1>Das Klaus</h1>
+    <h1>Countdown</h1>
     <div class="block">
       <h2>ToDos</h2>
       <div>Übersicht Vocal-Recordings</div>
