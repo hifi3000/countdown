@@ -43,7 +43,8 @@ export default {
 
       try {
         const res = await axios.post(
-          "http://localhost/countdown/api/?logins",
+          "http://countdown.spacekit.de/api/?logins",
+          // "http://localhost/countdown/api/?logins",
           accessdata,
           {
             headers: {
